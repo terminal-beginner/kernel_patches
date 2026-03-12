@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
+  <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
   <remote fetch="https://github.com/nullptr-t-oss" name="nullptr_t"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
   <project remote="nullptr_t" name="android_kernel_samsung_mt8781" path="kernel_platform/common" revision="main"/>
