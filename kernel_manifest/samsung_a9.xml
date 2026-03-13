@@ -3,7 +3,7 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
   <remote fetch="https://github.com/nullptr-t-oss" name="nullptr_t"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
-  <project remote="nullptr_t" name="android_kernel_samsung_mt8781" path="kernel_platform/common" revision="main"/>
+  <project remote="nullptr_t" name="android_kernel_samsung_mt8781" path="kernel-5.10" revision="main"/>
   <project remote="nullptr_t" name="android_kernel_modules_samsung_mt8781" path="./" revision="main"/>
   <project name="kernelplatform/prebuilts-master/clang/host/linux-x86" path="kernel_platform/prebuilts-master/clang/host/linux-x86" revision="0fc3d01a780023469b7acc18c56a9cf5099a6d6c" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
   <project name="kernelplatform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="kernel_platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="c9f87ae369034b4942536a1c5bd62e4cd1d828e3" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
